@@ -1,0 +1,52 @@
+{
+  "posts": [
+    {
+      "userId": "muhdiekuh",
+      "message": "Hello World",
+      "date": "2018-09-21T06:32:45+00:00",
+      "id": 1
+    },
+    {
+      "userId": "rioderelfte",
+      "message": "Hello another World",
+      "date": "2018-09-21T06:35:23+00:00",
+      "id": 2
+    },
+    {
+      "date": "2018-09-26T11:53:47.361Z",
+      "userId": "somebody",
+      "message": "Foobar",
+      "id": 3
+    },
+    {
+      "date": "2023-10-18T07:09:53.245Z",
+      "userId": "muhdiekuh",
+      "message": "asd *asd*",
+      "id": 4
+    },
+    {
+      "date": "2023-10-18T07:12:37.327Z",
+      "userId": "muhdiekuh",
+      "message": "asd **asd**",
+      "id": 5
+    },
+    {
+      "date": "2023-10-18T07:14:08.540Z",
+      "userId": "muhdiekuh",
+      "message": "ex",
+      "id": 6
+    },
+    {
+      "date": "2023-10-18T07:14:15.958Z",
+      "userId": "muhdiekuh",
+      "message": "foobar",
+      "id": 7
+    }
+  ],
+  "users": [
+    {
+      "id": "muhdiekuh",
+      "name": "Christian"
+    }
+  ]
+}
