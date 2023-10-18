@@ -16,4 +16,4 @@ The framework folders `nextjs`, `remix` and `gatsby` contain starter setups for 
 Some of the starters include some prepared code or components to help you get started without worrying too much about
 things not related directly to the SSR setups.
 
-For more details refer to the individual README files within echo of the framework folders. 
+For more details refer to the individual README files within echo of the framework folders.
