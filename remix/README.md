@@ -1,4 +1,4 @@
-# Next.js SSR
+# Remix SSR
 
 ## Exercise goals
 The goal of this exercise is to create a minimal microblog application using SSR features.
@@ -16,7 +16,7 @@ npm run dev
 
 ## Tasks
 
-1. Create an empty timeline page with Gatsby using the provided starter setup - see [Remix routing](https://remix.run/docs/en/main/discussion/routes) for more information. You can use hardcoded data for this step. We will be connecting to the backend later. Have a look at `backend/storage/database.json` for seed data. The timeline should present a list of posts, showing at least the message and the author's name. If you're feeling fancy you can also add avatars based on the `userId` using a service such as https://pravatar.cc/.
+1. Create an empty timeline page with Remix using the provided starter setup - see [Remix routing](https://remix.run/docs/en/main/discussion/routes) for more information. You can use hardcoded data for this step. We will be connecting to the backend later. Have a look at `backend/storage/database.json` for seed data. The timeline should present a list of posts, showing at least the message and the author's name. If you're feeling fancy you can also add avatars based on the `userId` using a service such as https://pravatar.cc/.
 2. Fill your timeline view with actual backend data using [server-side data loading](https://remix.run/docs/en/main/guides/data-loading). We provided a small API connection layer [here](app/models/posts.server.ts), so you can focus on SSR topics. Make sure your browser is not making HTTP Requests against the JSON backend to verify the data is actually loaded server-side.
 3. Add a second route to your app presenting a compose view. The compose view should consist of a simple form with an input field and submit button. It is fine to simply hardcode the submitting user's id for this since we will not bother with user management. Upon submitting the form, the new post should be saved to the backend. See [data writing using forms with Remix](https://remix.run/docs/en/main/guides/data-writes#building-the-form).
 4. Bonus task - support Markdown!
