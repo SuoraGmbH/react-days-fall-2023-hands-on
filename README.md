@@ -12,6 +12,8 @@ npm install
 npm run backend
 ```
 
+If you get connection refused errors when trying to access the backend, you might need to run `npm run backend-ips` instead of `npm run backend`.
+
 The framework folders `nextjs`, `remix` and `gatsby` contain starter setups for each of the respective frameworks.
 Some of the starters include some prepared code or components to help you get started without worrying too much about
 things not related directly to the SSR setups.
