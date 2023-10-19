@@ -9,6 +9,7 @@ to create new posts.
 You can start the dev setup by running:
 
 ```shell
+npm install
 npm run dev
 ```
 
