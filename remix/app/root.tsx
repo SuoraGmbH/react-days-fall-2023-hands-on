@@ -4,6 +4,7 @@ import {
   Meta,
   Scripts,
   ScrollRestoration,
+  Outlet,
 } from "@remix-run/react";
 
 export default function App() {
@@ -17,6 +18,7 @@ export default function App() {
       </head>
       <body>
         <div>
+          <Outlet />
           Hello Remix!
         </div>
 
